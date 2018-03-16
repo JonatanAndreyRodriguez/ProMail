@@ -9,7 +9,7 @@ Todas las combinaciones del comando anterior permiten el parametro -Force el cua
 Register-EmailAccount
 Register-EmailAccount -Name 'NombreDeseado'
 ```
-<center><img src="Credential Dialog.png" /></center>
+<h2 align="center"><img src="Credential Dialog.png" /></center></h2>
 
 ```powershell
 Register-EmailAccount -EmailAddress 'correo@correo.com' -Password $SecureString
