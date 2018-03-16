@@ -1,16 +1,20 @@
-# ¿Como funciona el módulo?
-Este módulo permite la automatización de procesos por correo electrónico, permitiendo crear reglas para la ejecución de procesos previos una vez se reciba un correo que cumpla la regla creada.
+# ¿ProMail?
 
+ProMail es un módulo de PowerShell que permite la automatización de procesos por correo electrónico, permitiendo crear reglas para la ejecución de procesos posteriores mediante de [Plugins](Setuo/Plugin-Manager.md), esto cuando se reciba un correo que coincida con una regla creada.
 Para registrar una cuenta a monitorear :
-```powershell
-Register-EmailAccount
-Register-EmailAccount -Name 'NombreDeseado'
-Register-EmailAccount -EmailAddress 'correo@correo.com' -Password (SecureString)
-Register-EmailAccount -Name 'NombreDeseado' -EmailAddress 'correo@correo.com' -Password (SecureString)
-```
 - **Nota:**
 En caso de no enviar los parametros EmailAddress y Pasword aparecera una ventana emergente solicitando las credenciales.
 Todas las combinaciones del comando anterior permiten el parametro -Force el cual permite registrar una cuenta sin validar la conexion .
+```powershell
+Register-EmailAccount
+Register-EmailAccount -Name 'NombreDeseado'
+```
+<img src="Credential Dialog.png" />
+
+```powershell
+Register-EmailAccount -EmailAddress 'correo@correo.com' -Password $SecureString
+Register-EmailAccount -Name 'NombreDeseado' -EmailAddress 'correo@correo.com' -Password $SecureString
+```
 
 Una vez registrada una cuenta es necesario crear una regla para obtener un correo especifico de la bandeja de entrada.
 
