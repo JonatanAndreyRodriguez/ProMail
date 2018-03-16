@@ -7,26 +7,47 @@ En caso de no enviar los parametros EmailAddress y Pasword aparecera una ventana
 Todas las combinaciones del comando anterior permiten el parametro -Force el cual permite registrar una cuenta sin validar la conexion .
 ```powershell
 Register-EmailAccount
-Register-EmailAccount -Name 'NombreDeseado'
+Register-EmailAccount -Name $FileName -Force
+```
+<h2 align="center"><img src="Get Account.png" /></center></h2>
+
+```powershell
+Register-EmailAccount -EmailAddress 'MyMail@Domain.com' Password $SecureString -Force
+Register-EmailAccount -Name $FileName -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
+```
+Con el comando Get-EmailAccount se puede validar la informacion de la cuenta creada.
+```powershell
+Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 ```
 <h2 align="center"><img src="Credential Dialog.png" /></center></h2>
 
-```powershell
-Register-EmailAccount -EmailAddress 'correo@correo.com' -Password $SecureString
-Register-EmailAccount -Name 'NombreDeseado' -EmailAddress 'correo@correo.com' -Password $SecureString
-```
-
 Una vez registrada una cuenta es necesario crear una regla para obtener un correo especifico de la bandeja de entrada.
 
-```powershell
-Register-Rule -Name (NombreIntuitivo) -AuthorizedSender 'Correo@correo.com' -Subject 'Asunto' -AttachmentsName 'Adjunto.txt' -PluginName 'ProcesoAEjecutar'
-Register-Rule -Name (NombreIntuitivo) -AuthorizedSender 'Correo@correo.com','Prueba@Prueba.com' -Subject 'Asunto','Asunto2' -AttachmentsName 'Adjunto.txt','Adjunto2.txt' -PluginName 'ProcesoAEjecutar'
-Register-Rule -Name (NombreIntuitivo) -AuthorizedSenderPath 'C:\RutaArchivoConCorreosAuthorizados.txt' -Subject 'Asunto' -AttachmentsName 'Adjunto.txt' -PluginName 'ProcesoAEjecutar'
-Register-Rule -Name (NombreIntuitivo) -AuthorizedSender 'Correo@correo.com' -Subject 'Asunto' -AttachmentsName 'Adjunto.txt' -PluginName 'ProcesoAEjecutar' -ResponseTemplatePath 'C:\RutaPlantillaEnviodeCorreo.hmtl'
-```
 - **Nota:**
-El Nombre debe ser Intuitivo ya que permite que varias reglas puedan tener el mismo nombre.
+El Nombre de la regla debe ser Intuitivo ya que permite que varias reglas puedan tener el mismo nombre.
 
+```powershell
+$RuleInformation = @{
+  Name             = $RuleName 
+  AuthorizedSender = 'MyMail@MyDomain.com'
+  Subject          = 'Subject To Process' 
+  AttachmentsName  = '*.txt','AttachmentToProcess.txt' 
+  PluginName       = $Plugin
+}
+Register-Rule @RuleInformation
+```
+```powershell
+$RuleInformation = @{
+  Name                 = $RuleName 
+  AuthorizedSenderPath = 'C:\PathFileAuthorizedEmails.txt'
+  Subject              = 'Subject To Process' 
+  AttachmentsName      = '*.txt','AttachmentToProcess.txt' 
+  PluginName           = $Plugin
+  ResponseTemplatePath = 'C:\PathFileCustomTemplate.html'
+}
+Register-Rule @RuleInformation
+```
+Con el comando Get-Rule se puede validar la informacion con la cual se creo la regla:
 Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
 
 ```powershell
