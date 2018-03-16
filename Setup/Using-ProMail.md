@@ -9,7 +9,7 @@ Todas las combinaciones del comando anterior permiten el parametro -Force el cua
 Register-EmailAccount
 Register-EmailAccount -Name $FileName -Force
 ```
-<h2 align="center"><img src="Credential Dialog.png" /></center></h2>
+<h2 align="center"><img src="Credential Dialog.png" /></h2>
 
 ```powershell
 Register-EmailAccount -EmailAddress 'MyMail@Domain.com' Password $SecureString -Force
@@ -19,7 +19,7 @@ Con el comando Get-EmailAccount se puede validar la informacion de la cuenta cre
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 ```
-<h2 align="center"><img src="Get Account.png" /></center></h2>
+<h2 align="center"><img src="Get Account.png" /></h2>
 
 Una vez registrada una cuenta es necesario crear una regla para obtener un correo especifico de la bandeja de entrada.
 
@@ -48,6 +48,12 @@ $RuleInformation = @{
 Register-Rule @RuleInformation
 ```
 Con el comando Get-Rule se puede validar la informacion con la cual se creo la regla:
+
+```powershell
+Get-Rule -Name MyRuleName
+Get-rule -Id $IdRule
+```
+<h2 align="left"><img src="Get RuleName.png" /> <img src="Get RuleId.png" /></h2>
 Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
 
 ```powershell
