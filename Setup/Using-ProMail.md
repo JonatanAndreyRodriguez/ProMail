@@ -51,9 +51,9 @@ Con el comando Get-Rule se puede validar la informacion con la cual se creo la r
 
 ```powershell
 Get-Rule -Name MyRuleName
-Get-rule -Id $IdRule
 ```
-<h2 align="left"><img src="Get RuleName.png" /> <img src="Get RuleId.png" /></h2>
+<h2 align="center"><img src="Get RuleName.png" /> </h2>
+
 Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
 
 ```powershell
