@@ -1,6 +1,6 @@
 # Comenzando...
 
-Esta sección explica cómo instalar el módulo ProMail así como sus pre-requisitos y como utilizarló.
+Esta sección explica cómo instalar el módulo ProMail así como sus pre-requisitos.
 
 * [Instalación](Installing-ProMail.md)
 
