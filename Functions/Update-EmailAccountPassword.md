@@ -5,7 +5,7 @@ online version:
 schema: 2.0.0
 ---
 
-# Update-EmailAccountPassword
+# Update-EmailAccount
 
 ## SYNOPSIS
 Actualiza la contraseña de una cuenta de correo indicada.
@@ -13,7 +13,7 @@ Actualiza la contraseña de una cuenta de correo indicada.
 ## SYNTAX
 
 ```
-Update-EmailAccountPassword [-ObjectEmailAccount] <Object> [-Force]
+Update-EmailAccount [-ObjectEmailAccount] <Object> [-Force]
 ```
 
 ## DESCRIPTION
@@ -23,7 +23,7 @@ Actualiza la contraseña de una cuenta de correo indicada.
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Update-EmailAccountPassword
+Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Update-EmailAccount
 ```
 
 ## PARAMETERS
@@ -75,7 +75,7 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Update-EmailAccountPassword](Update-EmailAccountPassword.md)
+[Update-EmailAccount](Update-EmailAccount.md)
 
 [Get-EmailAccount](Get-EmailAccount.md)
 
