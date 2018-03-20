@@ -1,5 +1,7 @@
 # ¿ProMail?
 
+![Curent release](https://img.shields.io/badge/Version-1.0.0.0-orange.svg)
+
 ProMail es un módulo de PowerShell que permite la automatización de procesos por correo electrónico, permitiendo crear reglas para la ejecución de procesos posteriores mediante de [Plugins](Setuo/Plugin-Manager.md), esto cuando se reciba un correo que coincida con una regla creada.
 Para registrar una cuenta a monitorear :
 - **Nota:**
@@ -74,3 +76,10 @@ Remove-RuleFromEmailAccount -IdRule 1
 - **Nota:**
 Esta es la configuracion basica para iniciar el proceso de [Monitoreo de correos](Monitor-Emails.md) del modulo. Para validar mas opciones de configuracion como agregar y quitar asuntos, aduntos, correos autorizados y cambios de contraseña puede validar las demas funciones del modulo.
 
+## Estructura de la documentación
+Las carpetas corresponden a los siguientes recursos de información:
+
+| Carpeta  | Descripción  |
+|:---|---|
+| [Setup](Setup)  | Describe el proceso de instalación|
+| [Funciones](Functions)  | Contiene las ayudas de las funciones publicas del módulo|
