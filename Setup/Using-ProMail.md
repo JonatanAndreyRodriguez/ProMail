@@ -57,42 +57,18 @@ Get-Rule -Name MyRuleName
 Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
 
 ```powershell
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Add-RuleToEmailAccount -IdRule (Get-Rule -Name 'NombreIntuitivo').IdRule
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Add-RuleToEmailAccount -IdRule 1
+Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
+Add-RuleToEmailAccount -IdRule 14
 ```
-- **Nota:**
-Para obtener el Identificador de Regla (IdRule) se debe utilizar la funcion Get-Rule.
-```powershell
-Get-Rule -Name 'NombreIntuitivo'
-Get-Rule -IdRule 1
-Get-Rule
-```
+
 Para validar que reglas tiene asociada una cuenta se puede utilizar el siguiente comando :
 ```powershell
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Get-Rule
-```
-Para deshabilitar el monitoreo a una cuenta de correo:
-```powershell
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Disable-EmailAccount
-```
-Para habilitar el monitoreo a una cuenta de correo:
-```powershell
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Enable-EmailAccount
-```
-Para deshabilitar una regla **(Para todas las cuentas asociadas)** :
-```powershell
-Get-Rule -IdRule 1 | Disable-Rule
-Get-Rule -IdRule 1,2 | Disable-Rule
-```
-Para habilitar una regla **(Para todas las cuentas asociadas)** :
-```powershell
-Get-Rule -IdRule 1 | Enable-Rule
-Get-Rule -IdRule 1,2 | Enable-Rule
+Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Get-Rule
 ```
 Para remover la asociacion de la regla a una cuenta:
 ```powershell
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Remove-RuleFromEmailAccount -IdRule 1
-Get-EmailAccount -EmailAddress 'correomonitoreado@correo.com' | Remove-RuleFromEmailAccount -IdRule 1,2
+Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
+Remove-RuleFromEmailAccount -IdRule 1
 ```
 
 - **Nota:**
