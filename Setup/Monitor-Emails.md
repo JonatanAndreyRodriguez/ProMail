@@ -5,6 +5,8 @@ Para el monitoreo de correo electronico se cuenta con un servicio que al ser ini
 ```powershell
 Start-Monitor
 ```
+<h2 align="center"><img src="Start Service.png" /></h2>
+
 Una vez iniciado el proceso de monitoreo se espera que un correo recibido cumpla con alguna de las reglas asociadas a alguna de las cuentas monitoreadas para ser procesado.
 En cuanto se detecte un correo que cumpla con la regla se iniciara el proceso pertinente indicado en la regla como [Plugin](Plugin-Manager.md).
 
@@ -20,9 +22,10 @@ despues de completado el proceso del plugin la informacion del job sera eliminad
 Get-JobState
 ```
 
-Para detener el monitoreo se utilizara el servicio de windows el´cual intenamente ejecutara la funcion:
+Para detener el monitoreo se dentendra el servicio de windows el cual internamente ejecutara la funcion:
 ```powershell
 Stop-Monitor
 ```
+<h2 align="center"><img src="Stop Service.png" /></h2>
 
 Con esto terminara el monitoreo de los correo electronicos.
