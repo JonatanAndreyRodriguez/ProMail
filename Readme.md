@@ -13,7 +13,7 @@ Register-EmailAccount -Name $FileName -Force
 ```
 - **Nota:**
 En caso de no enviar los parámetros EmailAddress y Password aparecerá una ventana emergente solicitando las credenciales.
-Todas las combinaciones del comando anterior permiten el parámetro -Force el cual permite registrar una cuenta sin validar la conexión .
+Todas las combinaciones del comando anterior permiten el parámetro **-Force** el cual permite registrar una cuenta sin validar la conexión .
 
 <h2 align="center"><img src="Setup/Credential Dialog.png" /></h2>
 Ejemplos:
