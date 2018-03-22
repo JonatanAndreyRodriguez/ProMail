@@ -74,7 +74,7 @@ Cada regla tiene asignado un número identificador el cual se denomina **Id de l
 
 **3. Asociar una cuenta de correo con una regla**
 
-Para asociar la cuenta de correo con la regla se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el numero identificador tiene el valor de 14
+Para asociar la cuenta de correo con la regla se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el numero identificador de la regla tiene el valor de 14
 
 Ejemplo:
 ```powershell
