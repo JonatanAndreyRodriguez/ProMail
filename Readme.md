@@ -31,6 +31,7 @@ Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 <h2 align="center"><img src="Setup/Get Account.png" /></h2>
 
 **2. Creación de Regla**
+La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, Las reglas de la bandeja de entrada se utilizan para procesar los mensajes entrantes en función de las condiciones especificadas.
 
 Ejemplo 1:
 ```powershell
@@ -44,7 +45,6 @@ $RuleInformation = @{
 }
 Register-Rule @RuleInformation
 ```
-La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, Las reglas de la bandeja de entrada se utilizan para procesar los mensajes entrantes en función de las condiciones especificadas.
 
 - **Nota:**
 El nombre de la regla debe ser intuitivo y pueden existir varias reglas con el mismo nombre.
@@ -82,11 +82,11 @@ Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' |
 Add-RuleToEmailAccount -IdRule 14
 ```
 
-Para validar que reglas tiene asociada una cuenta se puede utilizar el siguiente comando :
+Use el comando **Get-EmailAccount** para ver las reglas asociadas una cuenta:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Get-Rule
 ```
-Para remover la asociación de la regla a una cuenta:
+Use el comando **Remove-RuleFromEmailAccount** para remover la regla asociadas una cuenta:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
 Remove-RuleFromEmailAccount -IdRule 1
