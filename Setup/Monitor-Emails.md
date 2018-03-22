@@ -1,5 +1,5 @@
 # Monitoreo de Correos Electrónicos
-### Inicio de servicio de monitoreo
+### Iniciar servicio de monitoreo
 
 Para el monitoreo de correo electrónico se cuenta con un servicio que al ser iniciado utiliza la función :
 ```powershell
