@@ -27,6 +27,7 @@ Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 ```
 <h2 align="center"><img src="Setup/Get Account.png" /></h2>
 
+2. Creacion de Regla
 Una vez registrada una cuenta es necesario crear una regla para obtener un correo especifico de la bandeja de entrada.
 
 - **Nota:**
