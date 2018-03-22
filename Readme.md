@@ -65,7 +65,7 @@ Register-Rule @RuleInformation
 Use el comando **Get-Rule** para ver las propiedades de la regla de bandeja de entrada.
 
 ```powershell
-Get-Rule -Name MyRuleName
+Get-Rule -Name 'MyRuleName'
 ```
 Ejemplo:
 <h2 align="center"><img src="Setup/Get RuleName.png" /> </h2>
