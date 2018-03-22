@@ -6,7 +6,7 @@ ProMail es un Módulo de PowerShell que permite la automatización de procesos p
 
 **Para registrar una cuenta a monitorear**
 
-1. Registrar cuenta de correo
+**1. Registrar cuenta de correo**
 ```powershell
 Register-EmailAccount
 Register-EmailAccount -Name $FileName -Force
@@ -27,7 +27,7 @@ Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 ```
 <h2 align="center"><img src="Setup/Get Account.png" /></h2>
 
-2. Creación de Regla
+**2. Creación de Regla**
 ```powershell
 $RuleInformation = @{
   Name             = $RuleName 
@@ -64,13 +64,14 @@ Get-Rule -Name MyRuleName
 ```
 <h2 align="center"><img src="Setup/Get RuleName.png" /> </h2>
 
-**3. Asociar cuenta de correo con la regla**
-Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
-
+**3. Asociar una cuenta de correo con una regla**
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
 Add-RuleToEmailAccount -IdRule 14
 ```
+Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
+
+
 
 Para validar que reglas tiene asociada una cuenta se puede utilizar el siguiente comando :
 ```powershell
