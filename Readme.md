@@ -9,7 +9,7 @@ ProMail es un Módulo de PowerShell que permite la automatización de procesos p
 **1. Registrar cuenta de correo**
 ```powershell
 Register-EmailAccount
-Register-EmailAccount -Name $FileName -Force
+Register-EmailAccount -Name $AccountName -Force
 ```
 - **Nota:**
 En caso de no enviar los parámetros EmailAddress y Password aparecerá una ventana emergente solicitando las credenciales.
@@ -20,7 +20,7 @@ Ejemplos:
 
 ```powershell
 Register-EmailAccount -EmailAddress 'MyMail@Domain.com' Password $SecureString -Force
-Register-EmailAccount -Name $FileName -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
+Register-EmailAccount -Name $AccountName -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
 ```
 
 Use el comando **Get-EmailAccount** para ver las propiedades de la cuenta creada.
@@ -31,6 +31,8 @@ Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 <h2 align="center"><img src="Setup/Get Account.png" /></h2>
 
 **2. Creación de Regla**
+
+Ejemplo 1:
 ```powershell
 $RuleInformation = @{
   Name             = $RuleName 
@@ -47,7 +49,7 @@ La regla debe estar asociada a una cuenta de correo electrónico registrada ante
 - **Nota:**
 El nombre de la regla debe ser intuitivo y pueden existir varias reglas con el mismo nombre.
 
-Ejemplo:
+Ejemplo 2:
 ```powershell
 $RuleInformation = @{
   Name                 = $RuleName 
