@@ -12,16 +12,17 @@ Register-EmailAccount
 Register-EmailAccount -Name $FileName -Force
 ```
 - **Nota:**
-En caso de no enviar los parametros EmailAddress y Password aparecerá una ventana emergente solicitando las credenciales.
-Todas las combinaciones del comando anterior permiten el parametro -Force el cual permite registrar una cuenta sin validar la conexión .
+En caso de no enviar los parámetros EmailAddress y Password aparecerá una ventana emergente solicitando las credenciales.
+Todas las combinaciones del comando anterior permiten el parámetro -Force el cual permite registrar una cuenta sin validar la conexión .
 
 <h2 align="center"><img src="Setup/Credential Dialog.png" /></h2>
-
+Ejemplos:
 ```powershell
 Register-EmailAccount -EmailAddress 'MyMail@Domain.com' Password $SecureString -Force
 Register-EmailAccount -Name $FileName -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
 ```
-Con el comando Get-EmailAccount se puede validar la informacion de la cuenta creada.
+Use el comando **Get-EmailAccount** para ver las propiedades de la cuenta creada.
+
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 ```
@@ -39,7 +40,7 @@ $RuleInformation = @{
 }
 Register-Rule @RuleInformation
 ```
-La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, Las reglas de la bandeja de entrada se utilizan para procesar los mensajes en la Bandeja de entrada en función de las condiciones especificadas.
+La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, Las reglas de la bandeja de entrada se utilizan para procesar los mensajes entrantes en función de las condiciones especificadas.
 
 - **Nota:**
 El nombre de la regla debe ser intuitivo y pueden existir varias reglas con el mismo nombre.
@@ -56,19 +57,26 @@ $RuleInformation = @{
 }
 Register-Rule @RuleInformation
 ```
-Use el comando **Get-Rule** para ver las propiedades de la regla de Bandeja de entrada.
+Use el comando **Get-Rule** para ver las propiedades de la regla de bandeja de entrada.
 
 Sintaxis
 ```powershell
 Get-Rule -Name MyRuleName
 ```
+Ejemplo:
 <h2 align="center"><img src="Setup/Get RuleName.png" /> </h2>
 
+Cada regla tiene asignado un número identificador el cual se denomina **Id de la Regla**, para el ejemplo anterior el número identificador tiene el valor de 14, el cual se utilizará para relacionar la cuenta de correo con la regla.
+
 **3. Asociar una cuenta de correo con una regla**
+Para asociar la cuenta de correo con la regla se debe tener en cuenta el numero identificador de la regla
+
+Ejemplo:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
 Add-RuleToEmailAccount -IdRule 14
 ```
+
 Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
 
 
