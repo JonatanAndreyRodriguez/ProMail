@@ -74,7 +74,7 @@ Cada regla tiene asignado un número identificador el cual se denomina **Id de l
 
 **3. Asociar una cuenta de correo con una regla**
 
-Para asociar la cuenta de correo con la regla se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el numero identificador de la regla tiene el valor de 14
+Para asociar se debe establecer como parámetros la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el número identificador de la regla tiene el valor de 14
 
 Ejemplo:
 ```powershell
@@ -85,13 +85,13 @@ Use el comando **Get-EmailAccount** para ver las reglas asociadas una cuenta:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Get-Rule
 ```
-Use el comando **Remove-RuleFromEmailAccount** para remover la regla asociadas una cuenta, se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el numero identificador de la regla tiene el valor de 1:
+Use el comando **Remove-RuleFromEmailAccount** para remover la regla asociadas una cuenta, se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el número identificador de la regla tiene el valor de 1:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Remove-RuleFromEmailAccount -IdRule 1
 ```
 
 - **Nota:**
-Esta es la configuración básica para iniciar el proceso de [Monitoreo de correos](Setup/Monitor-Emails.md) del módulo. Para validar mas opciones de configuración como agregar, actualizar asuntos, archivos adjuntos, correos autorizados y cambios de contraseña puede validar las demas funciones del modulo.
+Los comandos y parámetros anteriormente señalados del módulo corresponden a la configuración básica para iniciar el proceso de [Monitoreo de correos](Setup/Monitor-Emails.md). Para ver mas opciones de configuración, ingresar a los link de Setup y Funciones expuestos en la estructura de la documentación.
 
 ## Estructura de la documentación
 Las carpetas corresponden a los siguientes recursos de información:
