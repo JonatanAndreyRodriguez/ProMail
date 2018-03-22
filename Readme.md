@@ -71,7 +71,8 @@ Ejemplo:
 Cada regla tiene asignado un número identificador el cual se denomina **Id de la Regla**, para el ejemplo anterior el número identificador tiene el valor de 14, el cual se utilizará para relacionar la cuenta de correo con la regla.
 
 **3. Asociar una cuenta de correo con una regla**
-Para asociar la cuenta de correo con la regla se debe tener en cuenta el numero identificador de la regla
+
+Para asociar la cuenta de correo con la regla se debe tener en cuenta el número identificador de la regla
 
 Ejemplo:
 ```powershell
@@ -79,22 +80,18 @@ Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' |
 Add-RuleToEmailAccount -IdRule 14
 ```
 
-Cuando se tenga la regla creada se debe asociar la regla a la cuenta.
-
-
-
 Para validar que reglas tiene asociada una cuenta se puede utilizar el siguiente comando :
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Get-Rule
 ```
-Para remover la asociacion de la regla a una cuenta:
+Para remover la asociación de la regla a una cuenta:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
 Remove-RuleFromEmailAccount -IdRule 1
 ```
 
 - **Nota:**
-Esta es la configuracion básica para iniciar el proceso de [Monitoreo de correos](Setup/Monitor-Emails.md) del modulo. Para validar mas opciones de configuracion como agregar y quitar asuntos, aduntos, correos autorizados y cambios de contraseña puede validar las demas funciones del modulo.
+Esta es la configuración básica para iniciar el proceso de [Monitoreo de correos](Setup/Monitor-Emails.md) del módulo. Para validar mas opciones de configuración como agregar, actualizar asuntos, archivos adjuntos, correos autorizados y cambios de contraseña puede validar las demas funciones del modulo.
 
 ## Estructura de la documentación
 Las carpetas corresponden a los siguientes recursos de información:
@@ -102,4 +99,4 @@ Las carpetas corresponden a los siguientes recursos de información:
 | Carpeta  | Descripción  |
 |:---|---|
 | [Setup](Setup)  | Describe el proceso de instalación|
-| [Funciones](Functions)  | Contiene las ayudas de las funciones publicas del módulo|
+| [Funciones](Functions)  | Contiene las ayudas de las funciones públicas del módulo|
