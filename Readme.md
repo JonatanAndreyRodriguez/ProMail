@@ -31,6 +31,7 @@ Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 <h2 align="center"><img src="Setup/Get Account.png" /></h2>
 
 **2. Creación de Regla**
+
 La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, Las reglas de la bandeja de entrada se utilizan para procesar los mensajes entrantes en función de las condiciones especificadas.
 
 Ejemplo 1:
