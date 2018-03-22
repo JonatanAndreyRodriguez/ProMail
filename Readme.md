@@ -56,8 +56,9 @@ $RuleInformation = @{
 }
 Register-Rule @RuleInformation
 ```
-Con el comando Get-Rule se puede validar la informacion con la cual se creo la regla:
+Use el cmdlet Get-InboxRule para ver las propiedades de la regla de Bandeja de entrada. Las reglas de la bandeja de entrada se utilizan para procesar los mensajes en la Bandeja de entrada en función de las condiciones especificadas y tomar medidas como mover un mensaje a una carpeta específica o eliminar un mensaje
 
+Sintaxis
 ```powershell
 Get-Rule -Name MyRuleName
 ```
