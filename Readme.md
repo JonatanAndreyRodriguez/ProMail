@@ -78,8 +78,7 @@ Para asociar la cuenta de correo con la regla se debe tener en cuenta el número
 
 Ejemplo:
 ```powershell
-Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
-Add-RuleToEmailAccount -IdRule 14
+Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Add-RuleToEmailAccount -IdRule 14
 ```
 
 Use el comando **Get-EmailAccount** para ver las reglas asociadas una cuenta:
@@ -88,8 +87,7 @@ Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Get-Rule
 ```
 Use el comando **Remove-RuleFromEmailAccount** para remover la regla asociadas una cuenta:
 ```powershell
-Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | 
-Remove-RuleFromEmailAccount -IdRule 1
+Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Remove-RuleFromEmailAccount -IdRule 1
 ```
 
 - **Nota:**
