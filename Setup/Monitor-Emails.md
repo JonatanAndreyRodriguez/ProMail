@@ -15,12 +15,12 @@ Para validar el estado de ejecución del monitoreo:
 Get-MonitorState
 ```
 Para validar el proceso de un correo recibido se puede utilizar el siguiente comando.
-- **Nota:**
-después de completado el proceso del plugin la información del job será eliminada de la base de datos pero no del log del proceso.
 
 ```powershell
 Get-JobState
 ```
+- **Nota:**
+después de completado el proceso del plugin la información del job será eliminada de la base de datos pero no del log del proceso.
 
 Para detener el monitoreo se dentendrá el servicio de Windows el cual internamente ejecutará la función:
 ```powershell
