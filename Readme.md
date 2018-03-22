@@ -12,14 +12,14 @@ Register-EmailAccount
 Register-EmailAccount -Name $AccountName -Force
 ```
 - **Nota:**
-En caso de no enviar los parámetros EmailAddress y Password aparecerá una ventana emergente solicitando las credenciales.
+En caso de no enviar los parámetros **EmailAddress** y **Password** aparecerá una ventana emergente solicitando las credenciales.
 Todas las combinaciones del comando anterior permiten el parámetro **-Force** el cual permite registrar una cuenta sin validar la conexión .
 
 <h2 align="center"><img src="Setup/Credential Dialog.png" /></h2>
 Ejemplos:
 
 ```powershell
-Register-EmailAccount -EmailAddress 'MyMail@Domain.com' Password $SecureString -Force
+Register-EmailAccount -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
 Register-EmailAccount -Name $AccountName -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
 ```
 
