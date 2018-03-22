@@ -2,7 +2,7 @@
 
 ![Curent release](https://img.shields.io/badge/Version-1.0.0.0-orange.svg)
 
-ProMail es un Módulo de PowerShell que permite la automatización de procesos por medio de la recepción de mensajes en una o varias cuentas de correo electrónico. Para su funcionamiento es necesario crear una o varias reglas asociadas a las cuentas de correo, que a su vez ejecutarán un proceso o acción mediante un [Plugins](Setup/Plugin-Manager.md), esto cuando se reciba un correo que coincida con una regla creada.
+ProMail es un Módulo de PowerShell que permite la automatización de procesos por medio de la recepción de mensajes en una o varias cuentas de correo electrónico. Para su funcionamiento es necesario crear una o varias reglas asociadas a las cuentas de correo, que a su vez ejecutarán un proceso o acción mediante un [Plugin](Setup/Plugin-Manager.md), esto cuando se reciba un correo que coincida con una regla creada.
 
 # Para registrar una cuenta a monitorear
 
@@ -39,7 +39,7 @@ $RuleInformation = @{
 }
 Register-Rule @RuleInformation
 ```
-La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, adicionalmente contempla una serie de parámetros de configuración para la ejecución de un proceso específico.
+La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, Las reglas de la bandeja de entrada se utilizan para procesar los mensajes en la Bandeja de entrada en función de las condiciones especificadas.
 
 - **Nota:**
 El nombre de la regla debe ser intuitivo y pueden existir varias reglas con el mismo nombre.
@@ -56,7 +56,7 @@ $RuleInformation = @{
 }
 Register-Rule @RuleInformation
 ```
-Use el cmdlet Get-InboxRule para ver las propiedades de la regla de Bandeja de entrada. Las reglas de la bandeja de entrada se utilizan para procesar los mensajes en la Bandeja de entrada en función de las condiciones especificadas y tomar medidas como mover un mensaje a una carpeta específica o eliminar un mensaje
+Use el comando **Get-Rule** para ver las propiedades de la regla de Bandeja de entrada.
 
 Sintaxis
 ```powershell
