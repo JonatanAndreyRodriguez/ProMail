@@ -5,7 +5,7 @@
 ProMail es un módulo de PowerShell que permite la automatización de procesos por correo electrónico, permitiendo crear reglas para la ejecución de procesos posteriores mediante de [Plugins](Setup/Plugin-Manager.md), esto cuando se reciba un correo que coincida con una regla creada.
 Para registrar una cuenta a monitorear :
 - **Nota:**
-En caso de no enviar los parametros EmailAddress y Pasword aparecera una ventana emergente solicitando las credenciales.
+En caso de no enviar los parametros EmailAddress y Password aparecera una ventana emergente solicitando las credenciales.
 Todas las combinaciones del comando anterior permiten el parametro -Force el cual permite registrar una cuenta sin validar la conexion .
 ```powershell
 Register-EmailAccount
@@ -74,7 +74,7 @@ Remove-RuleFromEmailAccount -IdRule 1
 ```
 
 - **Nota:**
-Esta es la configuracion basica para iniciar el proceso de [Monitoreo de correos](Setup/Monitor-Emails.md) del modulo. Para validar mas opciones de configuracion como agregar y quitar asuntos, aduntos, correos autorizados y cambios de contraseña puede validar las demas funciones del modulo.
+Esta es la configuracion básica para iniciar el proceso de [Monitoreo de correos](Setup/Monitor-Emails.md) del modulo. Para validar mas opciones de configuracion como agregar y quitar asuntos, aduntos, correos autorizados y cambios de contraseña puede validar las demas funciones del modulo.
 
 ## Estructura de la documentación
 Las carpetas corresponden a los siguientes recursos de información:
