@@ -22,7 +22,7 @@ Get-JobState
 - **Nota:**
 después de completado el proceso del plugin la información del job será eliminada de la base de datos pero no del log del proceso.
 
-Para detener el monitoreo se dentendrá el servicio de Windows el cual internamente ejecutará la función:
+Para detener el monitoreo se detendrá el servicio de Windows el cual internamente ejecutará la función:
 ```powershell
 Stop-Monitor
 ```
