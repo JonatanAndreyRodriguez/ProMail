@@ -27,7 +27,7 @@ Get-EmailAccount -EmailAddress 'MyMail@Domain.com'
 ```
 <h2 align="center"><img src="Setup/Get Account.png" /></h2>
 
-2. Creacion de Regla
+2. Creación de Regla
 ```powershell
 $RuleInformation = @{
   Name             = $RuleName 
@@ -35,15 +35,16 @@ $RuleInformation = @{
   Subject          = 'Subject To Process' 
   AttachmentsName  = '*.txt','AttachmentToProcess.txt' 
   PluginName       = $Plugin
+  ResponseTemplatePath = 'C:\PathFileCustomTemplate.html'
 }
 Register-Rule @RuleInformation
 ```
-Una vez registrada una cuenta es necesario crear una regla para obtener un correo especifico de la bandeja de entrada.
+La regla debe estar asociada a una cuenta de correo electrónico registrada anteriormente, adicionalmente contempla una serie de parámetros de configuración para la ejecución de un proceso específico.
 
 - **Nota:**
-El Nombre de la regla debe ser Intuitivo ya que permite que varias reglas puedan tener el mismo nombre.
+El nombre de la regla debe ser intuitivo y pueden existir varias reglas con el mismo nombre.
 
-
+Ejemplo:
 ```powershell
 $RuleInformation = @{
   Name                 = $RuleName 
