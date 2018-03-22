@@ -17,10 +17,12 @@ Todas las combinaciones del comando anterior permiten el parámetro -Force el cu
 
 <h2 align="center"><img src="Setup/Credential Dialog.png" /></h2>
 Ejemplos:
+
 ```powershell
 Register-EmailAccount -EmailAddress 'MyMail@Domain.com' Password $SecureString -Force
 Register-EmailAccount -Name $FileName -EmailAddress 'MyMail@Domain.com' -Password $SecureString -Force
 ```
+
 Use el comando **Get-EmailAccount** para ver las propiedades de la cuenta creada.
 
 ```powershell
