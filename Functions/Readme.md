@@ -17,9 +17,9 @@
 |[Get-JobsState](Get-JobsState.md)| Obtiene el estado del proceso del plugin.|
 |[Get-MonitorState](Get-MonitorState.md)| Obtiene el estado del proceso de monitoreo.|
 |[Get-RestrictedSender](Get-RestrictedSender.md)| Obtiene los remitentes restringidos.|
-|[Get-Rule](Get-Rule.md)| obtiene las reglas creadas.|
-|[Get-Subject](Get-Subject.md)| obtiene los asuntos de una regla creada.|
-|[Get-Template](Get-Template.md)| obtiene la información de la plantilla para la respuesta del correo.|
+|[Get-Rule](Get-Rule.md)| Obtiene las reglas creadas.|
+|[Get-Subject](Get-Subject.md)| Obtiene los asuntos de una regla creada.|
+|[Get-Template](Get-Template.md)| Obtiene la información de la plantilla para la respuesta del correo.|
 |[Register-EmailAccount](Register-EmailAccount.md)| Registra las cuentas de correo a monitorear.|
 |[Register-RestrictedSender](Register-RestrictedSender.md)| Registra los remitentes restringidos.|
 |[Register-Rule](Register-Rule.md)| Registra las reglas para validar los correos recibidos.|
