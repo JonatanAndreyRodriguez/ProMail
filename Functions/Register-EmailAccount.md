@@ -29,7 +29,7 @@ Register-EmailAccount
 ## PARAMETERS
 
 ### -Name
-Nombre con el que se guardara la cuenta a monitorear, en caso de no enviarse se utilizara la direccion de correo.
+Nombre con el que se guardará la cuenta a monitorear, en caso de no enviarse se utilizará la dirección de correo.
 
 ```yaml
 Type: String
@@ -44,8 +44,8 @@ Accept wildcard characters: False
 ```
 
 ### -EmailAddress
-Direccion de correo electronico que se monitoreara.
-si no son enviados los parametros EmailAddress y Password se abrira un cuadro de dialogo que solicitara la informacion.
+Dirección de correo electrónico que se monitoreará.
+si no son enviados los parámetros EmailAddress y Password se abrirá un cuadro de dialogo que solicitará la información.
 
 ```yaml
 Type: String
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 
 ### -Password
 Secure String con la contraseña de la cuenta a monitorear. 
-si no son enviados los parametros EmailAddress y Password se abrira un cuadro de dialogo que solicitara la informacion.
+si no son enviados los parámetros EmailAddress y Password se abrirá un cuadro de dialogo que solicitará la información.
 
 ```yaml
 Type: SecureString
