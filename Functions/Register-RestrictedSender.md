@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -EmailRestrictedPath
-Ruta del archivo .txt con el cual se cargaran las direcciones de correo que seran restringidas.
+Ruta del archivo .txt con el cual se cargaran las direcciones de correo que serán restringidas.
 
 ```yaml
 Type: String
