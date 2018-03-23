@@ -40,7 +40,7 @@ Get-Rule -id 1 | Update-RuleTemplate -ResponseTemplatePath 'c:\Template.html'
 ## PARAMETERS
 
 ### -IdRule
-Identificadores de la regla a la cual se realizara el cambio de plantilla.
+Identificadores de la regla a la cual se realizará el cambio de plantilla.
 
 ```yaml
 Type: Int32
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectRule
-Objeto con la regla a la cual se realizara el cambio de plantilla.
+Objeto con la regla a la cual se realizará el cambio de plantilla.
 
 ```yaml
 Type: Object
