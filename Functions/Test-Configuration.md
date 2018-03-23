@@ -8,7 +8,7 @@ schema: 2.0.0
 # Test-Configuration
 
 ## SYNOPSIS
-Verifica la información de los datos de configuración del módulo.
+Verifica los datos de configuración del módulo.
 
 ## SYNTAX
 
