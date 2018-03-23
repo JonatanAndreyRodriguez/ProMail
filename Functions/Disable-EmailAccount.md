@@ -40,7 +40,7 @@ Disable-EmailAccount -IdEmailAccount 2
 ## PARAMETERS
 
 ### -IdEmailAccount
-Identificador de la cuenta que se deshabilitara.
+Identificador de la cuenta que se deshabilitará.
 
 ```yaml
 Type: Int32
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectEmailAccount
-Objeto que contiene la informacion de las cuentas que se deshabilitaran.
+Objeto que contiene la información de las cuentas que se deshabilitaran.
 
 ```yaml
 Type: Object
