@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectEmailAccount
-Objeto con la informacion de la cuenta a habilitar.
+Objeto con la información de la cuenta a habilitar.
 
 ```yaml
 Type: Object
