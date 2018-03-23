@@ -19,10 +19,10 @@ Observar los ejemplos:
 Get-Help Register-Rule -Examples
 ```
 
-Observar la ayuda de un parámetro (en este caso EncryptedKey):
+Observar la ayuda de un parámetro (en este caso AuthorizedSender):
 
 ```powershell
-Get-Help Register-Rule -Parameter EncryptedKey
+Get-Help Register-Rule -Parameter AuthorizedSender
 ```
 
 Observar la ayuda en una ventana de Windows (en lugar de en la consola)
