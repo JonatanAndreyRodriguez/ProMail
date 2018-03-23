@@ -85,7 +85,7 @@ Use el comando **Get-EmailAccount** para ver las reglas asociadas una cuenta:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Get-Rule
 ```
-Use el comando **Remove-RuleFromEmailAccount** para remover la regla asociadas una cuenta, se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el número identificador de la regla tiene el valor de 1:
+Use el comando **Remove-RuleFromEmailAccount** para remover la regla asociadas a una cuenta, se debe tener presente la cuenta de correo y el número identificador de la regla, para el siguiente ejemplo, el número identificador de la regla tiene el valor de 1:
 ```powershell
 Get-EmailAccount -EmailAddress 'MyMail@MyDomain.com' | Remove-RuleFromEmailAccount -IdRule 1
 ```
