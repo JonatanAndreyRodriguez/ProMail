@@ -1,4 +1,4 @@
-# Importando el Modulo
+# Importando el Módulo
 
 1. Utilice el comando [Import-Module](https://msdn.microsoft.com/en-us/powershell/reference/5.1/microsoft.powershell.core/import-module) para agregar el módulo a la sesión actual
 2. Abra una ventana de PowerShell
