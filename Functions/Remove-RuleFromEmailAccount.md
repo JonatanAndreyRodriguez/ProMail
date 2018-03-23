@@ -39,7 +39,7 @@ Get-EmailAccount | Remove-RuleFromEmailAccount -IdRule 1,2,3
 ## PARAMETERS
 
 ### -ObjectEmailAccount
-Objeto con las cuentas a las cuales se desvincularan con las regalas definidas.
+Objeto con las cuentas a las cuales se desvincularan con las reglas definidas.
 
 ```yaml
 Type: Object
@@ -54,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdRule
-identificador de las reglas que seran desvinculadas de las cuentas.
+identificador de las reglas que serán desvinculadas de las cuentas.
 
 ```yaml
 Type: Int32[]
