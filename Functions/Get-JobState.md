@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-JobState
 
 ## SYNOPSIS
-Obtiene los estados de los jobs en ejecucion.
+Obtiene los estados de los jobs en ejecución.
 
 ## SYNTAX
 
@@ -17,7 +17,7 @@ Get-JobState
 ```
 
 ## DESCRIPTION
-Obtiene los estados de los jobs en ejecucion.
+Obtiene los estados de los jobs en ejecución.
 
 ## EXAMPLES
 
@@ -32,7 +32,7 @@ Get-Jobstate
 
 ## OUTPUTS
 
-### Información de ls jobs en ejecucion.
+### Información de ls jobs en ejecución.
 
 ## NOTES
 Autor: \<Jarodriguezc\>
