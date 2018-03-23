@@ -1,4 +1,4 @@
-# Desintalación
+# Desinstalación
 
 ### Versión Online
 
