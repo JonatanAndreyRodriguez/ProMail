@@ -70,7 +70,7 @@ Get-Rule -Name 'MyRuleName'
 Ejemplo:
 <h2 align="center"><img src="Setup/Get RuleName.png" /> </h2>
 
-Cada regla tiene asignado un número identificador el cual se denomina **Id de la Regla**, para el ejemplo anterior el número identificador tiene el valor de 14, el cual se utilizará para relacionar la cuenta de correo con la regla.
+Cada regla tiene asignado un número identificador el cual se denomina **Id de Regla**, para el ejemplo anterior el número identificador tiene el valor de 14, el cual se utilizará para relacionar la cuenta de correo con la regla.
 
 **3. Asociar una cuenta de correo con una regla**
 
