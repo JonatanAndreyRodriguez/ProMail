@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-Template
 
 ## SYNOPSIS
-Obtiene la informacion de la plantilla de una regla.
+Obtiene la información de la plantilla de una regla.
 
 ## SYNTAX
 
@@ -17,7 +17,7 @@ Get-Template [-IdRule] <Int32>
 ```
 
 ## DESCRIPTION
-Obtiene la informacion de la plantilla de una regla.
+Obtiene la información de la plantilla de una regla.
 
 ## EXAMPLES
 
