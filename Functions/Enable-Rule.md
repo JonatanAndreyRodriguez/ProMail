@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectRule
-Objeto con la informacion de las cuentas a habilitar.
+Objeto con la información de las cuentas a habilitar.
 
 ```yaml
 Type: Object
