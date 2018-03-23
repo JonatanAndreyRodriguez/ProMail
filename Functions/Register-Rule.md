@@ -43,7 +43,7 @@ Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1
 ## PARAMETERS
 
 ### -Name
-Nombre con el cual sera guardada la regla.
+Nombre con el cual será guardada la regla.
 
 ```yaml
 Type: String
