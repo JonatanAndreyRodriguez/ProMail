@@ -29,7 +29,7 @@ Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Update-EmailAccount
 ## PARAMETERS
 
 ### -ObjectEmailAccount
-Objeto con la cuenta a la cual sera actualizada la contraseña.
+Objeto con la cuenta a la cual será actualizada la contraseña.
 
 ```yaml
 Type: Object
