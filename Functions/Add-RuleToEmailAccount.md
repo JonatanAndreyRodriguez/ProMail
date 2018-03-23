@@ -8,7 +8,7 @@ schema: 2.0.0
 # Add-RuleToEmailAccount
 
 ## SYNOPSIS
-Realiza la asociacion de n reglas a su respectivas cuentas.
+Realiza la asociación de n reglas a su respectivas cuentas.
 
 ## SYNTAX
 
@@ -54,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdRule
-identificador de las reglas que seran asociadas a las cuentas.
+identificador de las reglas que serán asociadas a las cuentas.
 
 ```yaml
 Type: Int32[]
