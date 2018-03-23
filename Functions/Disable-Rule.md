@@ -40,7 +40,7 @@ Disable-Rule -IdRule 1
 ## PARAMETERS
 
 ### -IdRule
-Identificador de la regla que se deshabilitara.
+Identificador de la regla que se deshabilitará.
 
 ```yaml
 Type: Int32
