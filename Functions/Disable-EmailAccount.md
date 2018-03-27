@@ -28,12 +28,12 @@ Deshabilita las cuentas indicadas para que no sean monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Disable-EmailAccount
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Disable-EmailAccount -IdEmailAccount 2
 ```
 
