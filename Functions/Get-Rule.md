@@ -22,32 +22,32 @@ Obtiene las reglas registradas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Rule
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Rule -Name Regla
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-Rule -idRule 7
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```
+```powershell
 Get-EmailAccount | Get-Rule
 ```
 
 ### -------------------------- EXAMPLE 5 --------------------------
-```
+```powershell
 Get-EmailAccount -EmailAddress 'preuba@prueba.com' | Get-Rule
 ```
 
 ### -------------------------- EXAMPLE 6 --------------------------
-```
+```powershell
 Get-EmailAccount -EmailAddress 'preuba@prueba.com' | Get-Rule -IdRule 2
 ```
 
