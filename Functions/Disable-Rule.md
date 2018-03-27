@@ -28,12 +28,12 @@ Deshabilita las reglas indicadas para no ser monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Rule -IdRule 1 | Disable-Rule
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Disable-Rule -IdRule 1
 ```
 
