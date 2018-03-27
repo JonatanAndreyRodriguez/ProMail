@@ -25,7 +25,7 @@ deberán ingresarse separados por comas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Add-Subject -IdRule 114 -Subject 'activaciones', 'activar nuevos', 'bonos nuevos'
 ```
 
