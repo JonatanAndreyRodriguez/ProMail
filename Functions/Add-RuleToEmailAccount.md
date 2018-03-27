@@ -22,17 +22,17 @@ Realiza la asociacion de n reglas a su respectivas cuentas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EmailAccount | Add-RuleToemailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-EmailAccount -Emailaddres 'prueba@prueba.com' | Add-RuleToemailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-EmailAccount | Add-RuleToemailAccount -IdRule 1,2,3
 ```
 
