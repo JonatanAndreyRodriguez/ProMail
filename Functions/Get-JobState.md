@@ -22,7 +22,7 @@ Obtiene los estados de los jobs en ejecución.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Jobstate
 ```
 
