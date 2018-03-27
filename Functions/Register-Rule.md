@@ -32,12 +32,12 @@ Recibe como parámetros los elementos que conformarán la nueva regla.
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```
-Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentName 'Prueba1.txt' -Plugin 'NombrePlugin'
+Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba1.txt' -Plugin 'NombrePlugin'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
 ```
-Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentName 'Prueba*.txt','*.txt' -Plugin 'NombrePlugin'
+Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba*.txt','*.txt' -Plugin 'NombrePlugin'
 ```
 
 ## PARAMETERS
