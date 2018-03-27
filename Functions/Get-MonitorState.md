@@ -22,7 +22,7 @@ Obtiene el estado del processo de monitoreo.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-MonitorState
 ```
 
