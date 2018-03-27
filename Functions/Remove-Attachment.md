@@ -22,12 +22,12 @@ Elimina registros de asuntos válidos para los mensajes de correo entrantes.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Subject | Remove-Subject
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Subject -IdRule 19 | Remove-Subject
 ```
 
