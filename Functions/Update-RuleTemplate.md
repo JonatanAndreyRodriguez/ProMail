@@ -28,12 +28,12 @@ Actualiza la plantilla de respuesta de correo a una regla indicada.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Update-RuleTemplate -IdRule 1 -ResponseTemplatePath 'c:\Template.html'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-Rule -id 1 | Update-RuleTemplate -ResponseTemplatePath 'c:\Template.html'
 ```
 
