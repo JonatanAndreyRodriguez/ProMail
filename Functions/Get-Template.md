@@ -22,7 +22,7 @@ Obtiene la información de la plantilla de una regla.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Template -IdRule 1
 ```
 
