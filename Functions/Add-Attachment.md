@@ -25,13 +25,13 @@ La extensión admitida para los archivos adjuntos es '.txt'.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
-Add-AttachmentName -IdRule 75 -AttachmentsName 'Listado Enero.txt', 'Activaciones enero.txt'
+```powershell
+Add-Attachment -IdRule 75 -AttachmentsName 'Listado Enero.txt', 'Activaciones enero.txt'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
-Add-AttachmentName -IdRule 75 -AttachmentsName '*.txt', 'Activaciones*.txt'
+```powershell
+Add-Attachment -IdRule 75 -AttachmentsName '*.txt', 'Activaciones*.txt'
 
 Este ejemplo registrara dos adjuntos el primero recibe cualquier nombre con la extencion '.txt' y el segundo recibe la palabra 'Activaciones' seguida de algun dato y la extencion '.txt'
 ```
