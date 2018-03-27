@@ -22,7 +22,7 @@ Actualiza la contraseña de una cuenta de correo indicada.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Update-EmailAccount
 ```
 
