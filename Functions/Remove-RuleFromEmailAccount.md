@@ -22,17 +22,17 @@ Desvincula n reglas a su respectivas cuentas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EmailAccount | Remove-RuleFromEmailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-EmailAccount -Emailaddres 'prueba@prueba.com' | Remove-RuleFromEmailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-EmailAccount | Remove-RuleFromEmailAccount -IdRule 1,2,3
 ```
 
