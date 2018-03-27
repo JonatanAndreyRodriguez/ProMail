@@ -32,12 +32,12 @@ para todas las reglas de gestión creadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Register-RestrictedSender -EmailRestricted mailbox1@gmail.com, mailbox34@gmail.com
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Register-RestrictedSender -EmailRestrictedPath 'C:\Ruta\Restringidos.txt'
 ```
 
