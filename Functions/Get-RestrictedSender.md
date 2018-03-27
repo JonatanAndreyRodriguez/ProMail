@@ -25,7 +25,7 @@ puede ser canalizada como entrada de la función Remove-RestrictedSender.
 
 ### -------------------------- EXAMPLE 1 --------------------------
 ```powershell
-Get-RestrictedSender -RestrictedSender canallatino@universaltv.com
+Get-RestrictedSender -EmailAddress canallatino@universaltv.com
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
