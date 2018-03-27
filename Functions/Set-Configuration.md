@@ -23,7 +23,7 @@ Establece la información de los datos de configuración del módulo en el archi
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Set-Configuration
 ```
 
