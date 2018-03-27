@@ -22,24 +22,24 @@ Verifica la información de los datos de configuración del módulo de acuerdo a
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Test-Configuration
 ```
 
 Verifica la configuración del módulo (conexiones y demás elementos definidos por el desarrollador).
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Test-Configuration -SaveFlag
 ```
 
 Verifica la configuración del módulo (conexiones y demás elementos definidos por el desarrollador).
-Si alguna verificación falla, establece el valor de *No configurado* en el archivo \<%=$PLASTER_PARAM_ModuleName%\>.config
+Si alguna verificación falla, establece el valor de *No configurado* en el archivo \ProMail.config
 
 ## PARAMETERS
 
 ### -SaveFlag
-Cuando se establece y las validaciones fallan, actualiza el valor de *No configurado* en el archivo \<%=$PLASTER_PARAM_ModuleName%\>.config
+Cuando se establece y las validaciones fallan, actualiza el valor de *No configurado* en el archivo \ProMail.config
 
 ```yaml
 Type: SwitchParameter
