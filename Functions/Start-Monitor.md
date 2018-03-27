@@ -12,7 +12,7 @@ Inicia el proceso de monitoreo de cuentas.
 
 ## SYNTAX
 
-```
+```powershell
 Start-Monitor
 ```
 
