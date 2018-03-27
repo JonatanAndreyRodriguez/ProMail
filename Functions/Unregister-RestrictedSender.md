@@ -22,26 +22,19 @@ Elimina registros de remitentes prohibidos, los cuales, aplican para todas las r
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-RestrictedSender | Unregister-RestrictedSender
 ```
 
 Elimina TODOS los registros de remitentes prohibidos.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
-Get-RestrictedSender -EmailAccount blackMailer@airmail.net | Unregister-RestrictedSender
+```powershell
+Get-RestrictedSender -EmailAddress blackMailer@airmail.net | Unregister-RestrictedSender
 ```
 
 Elimina la cuenta de correo blackMailer@airmail.net de la lista de remitentes prohibidos.
 
-### -------------------------- EXAMPLE 3 --------------------------
-```
-Get-RestrictedSender -EmailAccount *yellow*.com | Unregister-RestrictedSender
-```
-
-Elimina todas las cuentas remitentes prohibidas que contengan la palabra yellow y cuyo 
-dominio finalize con '.com'.
 
 ## PARAMETERS
 
