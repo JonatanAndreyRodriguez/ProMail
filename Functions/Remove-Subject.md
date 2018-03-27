@@ -22,7 +22,7 @@ Elimina registros de asuntos válidos para los mensajes de correo entrantes.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Subject | Remove-Subject
 ```
 
