@@ -23,17 +23,17 @@ Por defecto se muestran todas las cuentas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EmailAccount
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-EmailAccount -EmailAddress 'MyName@gmail.com'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-EmailAccount -Name 'MyName'
 ```
 
