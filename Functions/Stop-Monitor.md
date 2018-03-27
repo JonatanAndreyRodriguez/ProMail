@@ -22,7 +22,7 @@ Detiene el monitoreo de las cuentas indicadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Stop-Monitor
 ```
 
