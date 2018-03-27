@@ -28,12 +28,12 @@ Habilita las reglas a ser monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-Rule | Enable-Rule
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Enable-Rule -IdRule 2
 ```
 
