@@ -22,7 +22,7 @@ Registra una cuenta de correo receptora, la cual ha de ser vinculada a una regla
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Register-EmailAccount
 ```
 
