@@ -31,12 +31,12 @@ Recibe como parámetros los elementos que conformarán la nueva regla.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba1.txt' -Plugin 'NombrePlugin'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba*.txt','*.txt' -Plugin 'NombrePlugin'
 ```
 
