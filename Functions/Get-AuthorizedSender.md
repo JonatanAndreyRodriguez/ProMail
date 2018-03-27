@@ -22,17 +22,17 @@ Obtiene la lista de remitentes autorizados.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-AuthorizedSender -EmailAuthorized 'inversionesardila@yahoo.com'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Get-AuthorizedSender -IdRule 2
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```
+```powershell
 Get-AuthorizedSender -IdRule 2 -EmailAuthorized 'inversionesardila@yahoo.com'
 ```
 
