@@ -28,12 +28,12 @@ Habilita las cuentas indicadas para ser monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```
+```powershell
 Get-EmailAccount | Enable-Emailaccount
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```
+```powershell
 Enable-Emailaccount -IdEmailAccount 2
 ```
 
