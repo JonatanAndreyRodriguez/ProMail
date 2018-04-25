@@ -1,6 +1,6 @@
 # ProMail
 
-![Curent release](https://img.shields.io/badge/Version-1.0.0.0-orange.svg)
+![Curent release](https://img.shields.io/badge/Version-1.0.6682.62258-orange.svg)
 
 ProMail es un Módulo de PowerShell que permite la automatización de procesos por medio de la recepción de mensajes en una o varias cuentas de correo electrónico. Para su funcionamiento es necesario crear una o varias reglas asociadas a las cuentas de correo, que a su vez ejecutarán un proceso o acción mediante un [Plugin](Setup/Plugin-Manager.md).
 
