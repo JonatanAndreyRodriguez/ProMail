@@ -39,7 +39,7 @@ Ejemplo 1:
 $RuleInformation = @{
   Name             = $RuleName 
   AuthorizedSender = 'MyMail@MyDomain.com'
-  Subject          = 'Subject To Process' 
+  Subject          = 'Subject To Process',' Subject 2' 
   AttachmentsName  = '*.txt','AttachmentToProcess.txt' 
   PluginName       = $Plugin
   ResponseTemplatePath = 'C:\PathFileCustomTemplate.html'
