@@ -64,6 +64,7 @@ Register-Rule @RuleInformation
 ```
 - **Nota:**
 Para la propiedad **AuthorizedSenderPath**, se debe establece la ruta del archivo plano, cada correo electronico o email debe estar separado por un salto de linea.
+
 Ejemplo:
 ```powershell
 correo@server.com
