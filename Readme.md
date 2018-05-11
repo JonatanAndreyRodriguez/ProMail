@@ -66,11 +66,9 @@ Register-Rule @RuleInformation
 Para la propiedad AuthorizedSenderPath, se establece la ruta del archivo plano, y cada correo electronico o email estar separado por un salto de linea.
 Ejemplo:
   correo@server.com
-  ```
+  
   correo2@server.com
   
-
-
 Use el comando **Get-Rule** para ver las propiedades de la regla de bandeja de entrada.
 
 ```powershell
