@@ -32,12 +32,12 @@ para todas las reglas de gestión creadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Register-RestrictedSender -EmailRestricted mailbox1@gmail.com, mailbox34@gmail.com
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Register-RestrictedSender -EmailRestrictedPath 'C:\Ruta\Restringidos.txt'
 ```
 
@@ -61,7 +61,7 @@ Accept wildcard characters: False
 ```
 
 ### -EmailRestrictedPath
-Ruta del archivo .txt con el cual se cargaran las direcciones de correo que serán restringidas.
+Ruta del archivo .txt con el cual se cargaran las direcciones de correo que seran restringidas.
 
 ```yaml
 Type: String
@@ -92,7 +92,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Unregister-RestrictedSender](Unregister-RestrictedSender.md)
-
-[Get-RestrictedSender](Get-RestrictedSender.md)
+[[Register-RestrictedSender](Register-RestrictedSender.md)
+[Unregister-RestrictedSender](Unregister-RestrictedSender.md)]()
 

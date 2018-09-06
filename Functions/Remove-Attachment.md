@@ -22,13 +22,13 @@ Elimina registros de asuntos válidos para los mensajes de correo entrantes.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
-Get-Attachment | Remove-Attachment
+```
+Get-Subject | Remove-Subject
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
-Get-Attachment -IdRule 19 | Remove-Attachment
+```
+Get-Subject -IdRule 19 | Remove-Subject
 ```
 
 Elimina todos los asuntos vinculados a la regla de gestión cuyo identificador es 19.
@@ -65,7 +65,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Add-Attachment](Add-Attachment.md)
-
-[Get-Attachment](Get-Attachment.md)
+[[Remove-Subject](Remove-Subject.md)
+[Get-Subject](Get-Subject.md)]()
 

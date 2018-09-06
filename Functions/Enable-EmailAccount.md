@@ -28,12 +28,12 @@ Habilita las cuentas indicadas para ser monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-EmailAccount | Enable-Emailaccount
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Enable-Emailaccount -IdEmailAccount 2
 ```
 
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectEmailAccount
-Objeto con la información de la cuenta a habilitar.
+Objeto con la informacion de la cuenta a habilitar.
 
 ```yaml
 Type: Object
@@ -82,5 +82,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Disable-EmailAccount](Disable-EmailAccount.md)
+[[Enable-EmailAccount](Enable-EmailAccount.md)
+[Disable-EmailAccount](Disable-EmailAccount.md)]()
 

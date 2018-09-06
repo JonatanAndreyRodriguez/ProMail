@@ -17,19 +17,19 @@ Get-Configuration
 ```
 
 ## DESCRIPTION
-Obtiene la información de los datos de configuración del módulo a partir de los datos en el archivo \ProMail.config
+Obtiene la información de los datos de configuración del módulo a partir de los datos en el archivo \<%=$PLASTER_PARAM_ModuleName%\>.config
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Configuration
 ```
 
 Obtiene la información de configuración del módulo.
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-Configuration | Get-Member -MemberType Properties
 ```
 
@@ -52,7 +52,6 @@ Autor Modificacion: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Set-Configuration](Set-Configuration.md)
-
-[Test-Configuration](Test-Configuration.md)
+[[Set-Configuration](Set-Configuration.md)
+[Test-Configuration](Test-Configuration.md)]()
 

@@ -28,19 +28,19 @@ Deshabilita las cuentas indicadas para que no sean monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Disable-EmailAccount
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Disable-EmailAccount -IdEmailAccount 2
 ```
 
 ## PARAMETERS
 
 ### -IdEmailAccount
-Identificador de la cuenta que se deshabilitará.
+Identificador de la cuenta que se deshabilitara.
 
 ```yaml
 Type: Int32
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectEmailAccount
-Objeto que contiene la información de las cuentas que se deshabilitaran.
+Objeto que contiene la informacion de las cuentas que se deshabilitaran.
 
 ```yaml
 Type: Object
@@ -82,5 +82,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Enable-EmailAccount](Enable-EmailAccount.md)
+[[Disable-EmailAccount](Disable-EmailAccount.md)
+[Enable-EmailAccount](Enable-EmailAccount.md)]()
 

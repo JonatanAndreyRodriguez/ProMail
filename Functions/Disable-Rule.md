@@ -28,19 +28,19 @@ Deshabilita las reglas indicadas para no ser monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Rule -IdRule 1 | Disable-Rule
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Disable-Rule -IdRule 1
 ```
 
 ## PARAMETERS
 
 ### -IdRule
-Identificador de la regla que se deshabilitará.
+Identificador de la regla que se deshabilitara.
 
 ```yaml
 Type: Int32
@@ -82,5 +82,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Enable-Rule](Enable-Rule.md)
+[[Disable-Rule](Disable-Rule.md)
+[Enable-Rule](Enable-Rule.md)]()
 

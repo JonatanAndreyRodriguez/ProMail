@@ -22,24 +22,24 @@ Desvincula n reglas a su respectivas cuentas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-EmailAccount | Remove-RuleFromEmailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-EmailAccount -Emailaddres 'prueba@prueba.com' | Remove-RuleFromEmailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```powershell
+```
 Get-EmailAccount | Remove-RuleFromEmailAccount -IdRule 1,2,3
 ```
 
 ## PARAMETERS
 
 ### -ObjectEmailAccount
-Objeto con las cuentas a las cuales se desvincularan con las reglas definidas.
+Objeto con las cuentas a las cuales se desvincularan con las regalas definidas.
 
 ```yaml
 Type: Object
@@ -54,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdRule
-identificador de las reglas que serán desvinculadas de las cuentas.
+identificador de las reglas que seran desvinculadas de las cuentas.
 
 ```yaml
 Type: Int32[]
@@ -83,4 +83,5 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Add-RuleToEmailAccount](Add-RuleToEmailAccount.md)
+[[Remove-RuleFromEmailAccount](Remove-RuleFromEmailAccount.md)]()
+

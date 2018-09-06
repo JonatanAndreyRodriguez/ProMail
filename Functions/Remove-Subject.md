@@ -22,7 +22,7 @@ Elimina registros de asuntos válidos para los mensajes de correo entrantes.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Subject | Remove-Subject
 ```
 
@@ -58,7 +58,6 @@ Autor: \<Jarodriguez\>
 
 ## RELATED LINKS
 
-[Add-Subject](Add-Subject.md)
-
-[Get-Subject](Get-Subject.md)
+[[Remove-Subject](Remove-Subject.md)
+[Get-Subject](Get-Subject.md)]()
 

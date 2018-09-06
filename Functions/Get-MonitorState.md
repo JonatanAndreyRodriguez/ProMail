@@ -22,7 +22,7 @@ Obtiene el estado del processo de monitoreo.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-MonitorState
 ```
 
@@ -43,7 +43,7 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Start-Monitor](Start-Monitor.md)
+[[Add-AuthorizedSender](Add-AuthorizedSender.md)]()
 
-[Stop-Monitor](Stop-Monitor.md)
+[[Remove-AuthorizedSender](Remove-AuthorizedSender.md)]()
 

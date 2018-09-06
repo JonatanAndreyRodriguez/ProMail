@@ -23,7 +23,7 @@ Establece la información de los datos de configuración del módulo en el archi
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Set-Configuration
 ```
 
@@ -45,7 +45,7 @@ Autor: \<Magudelo\>
 
 ## RELATED LINKS
 
-[Test-Configuration](Test-Configuration.md)
+[[Test-Configuration](Test-Configuration.md)]()
 
-[Get-Configuration](Get-Configuration.md)
+[[Get-Configuration](Get-Configuration.md)]()
 

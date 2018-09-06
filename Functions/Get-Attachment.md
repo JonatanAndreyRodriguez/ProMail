@@ -22,22 +22,22 @@ Obtiene los nombre de los adjuntos permitidos por regla.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Attachment
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-Attachment -Attachment Prueba.txt
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```powershell
+```
 Get-Attachment -Attachment Prueba.txt -IdRule 2
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```powershell
+```
 Get-Attachment -IdRule 2
 ```
 
@@ -88,7 +88,7 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
+[[Get-Attachment](Get-Attachment.md)
 [Add-Attachment](Add-Attachment.md)
-
-[Remove-Attachment](Remove-Attachment.md)
+[Remove-Attachment](Remove-Attachment.md)]()
 

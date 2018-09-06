@@ -28,19 +28,19 @@ Actualiza la plantilla de respuesta de correo a una regla indicada.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Update-RuleTemplate -IdRule 1 -ResponseTemplatePath 'c:\Template.html'
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-Rule -id 1 | Update-RuleTemplate -ResponseTemplatePath 'c:\Template.html'
 ```
 
 ## PARAMETERS
 
 ### -IdRule
-Identificadores de la regla a la cual se realizará el cambio de plantilla.
+Identificadores de la regla a la cual se realizara el cambio de plantilla.
 
 ```yaml
 Type: Int32
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectRule
-Objeto con la regla a la cual se realizará el cambio de plantilla.
+Objeto con la regla a la cual se realizara el cambio de plantilla.
 
 ```yaml
 Type: Object
@@ -93,15 +93,17 @@ Accept wildcard characters: False
 ### Registros nuevos de nombres de archivos adjuntos permitidos en una regla de gestión.
 
 ## NOTES
----------------------------------------------------------
-Autor: \<Jarodriguezc\>
-Última Modificación: 23/Feb/18
+------------------------------------------------------------------------------------------------------------------
+Author Create: \<Jarodriguezc\>
+Create Date  : 23/Feb/18
 
----------------------------------------------------------
+Author Update: \<Jarodriguezc\>
+Update Date  : 13/Jun/18
+Description  : Se modifica la funcion para cambiar la ruta donde seran almacenados los Templates de HTML.
+Mantiz		 : 122834
+------------------------------------------------------------------------------------------------------------------
 
 ## RELATED LINKS
 
-[Register-Rule](Register-Rule.md)
-
-[Get-Rule](Get-Rule.md)
+[[Update-RuleTemplate](Update-RuleTemplate.md)]()
 

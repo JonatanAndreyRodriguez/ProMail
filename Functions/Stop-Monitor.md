@@ -22,7 +22,7 @@ Detiene el monitoreo de las cuentas indicadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Stop-Monitor
 ```
 
@@ -43,7 +43,6 @@ Autor: \<Jarodriguez\>
 
 ## RELATED LINKS
 
-[Get-MonitorState](Get-MonitorState.md)
-
-[Start-Monitor](Start-Monitor.md)
+[[Stop-Monitor](Stop-Monitor.md)
+[Start-Monitor](Start-Monitor.md)]()
 

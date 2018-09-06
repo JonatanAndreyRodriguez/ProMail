@@ -33,12 +33,12 @@ Registra remitentes autorizados vinculándolos a reglas previamente creadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Add-AuthorizedSender -IdRule 72 -EmailAuthorized porcelanas@InduCeram.com
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Add-AuthorizedSender -IdRule 144 -EmailAuthorizedPath 'C:\Ruta\Autorizados.txt'
 ```
 
@@ -105,8 +105,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Get-AuthorizedSender](Get-AuthorizedSender.md)
-
-[Remove-AuthorizedSender](Remove-AuthorizedSender.md)
-
+[[Add-AuthorizedSender](Add-AuthorizedSender.md)
+[Remove-AuthorizedSender](Remove-AuthorizedSender.md)]()
 

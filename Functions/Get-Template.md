@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-Template
 
 ## SYNOPSIS
-Obtiene la información de la plantilla de una regla.
+Obtiene la informacion de la plantilla de una regla.
 
 ## SYNTAX
 
@@ -17,12 +17,12 @@ Get-Template [-IdRule] <Int32>
 ```
 
 ## DESCRIPTION
-Obtiene la información de la plantilla de una regla.
+Obtiene la informacion de la plantilla de una regla.
 
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Template -IdRule 1
 ```
 
@@ -58,5 +58,5 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Update-RuleTemplate](Get-RuleTemplate.md)
+[[Get-Template](Get-Template.md)]()
 

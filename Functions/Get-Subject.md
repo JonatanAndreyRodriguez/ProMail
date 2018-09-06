@@ -22,22 +22,22 @@ Obtiene los enunciados de asuntos de mensajes entrantes.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Subject -Subject prueba
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-Subject -IdRule 4
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```powershell
+```
 Get-Subject
 ```
 
 ### -------------------------- EXAMPLE 4 --------------------------
-```powershell
+```
 Get-Subject -IdRule 4 -Subject prueba
 ```
 
@@ -88,7 +88,7 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Add-Subject](Add-Subject.md)
+[[Get-Subject](Get-Subject.md)]()
 
-[Remove-Subject](Remove-Subject.md)
+[[Remove-Subject](Remove-Subject.md)]()
 

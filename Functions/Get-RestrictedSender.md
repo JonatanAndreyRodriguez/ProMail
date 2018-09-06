@@ -24,12 +24,12 @@ puede ser canalizada como entrada de la función Remove-RestrictedSender.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
-Get-RestrictedSender -EmailAddress canallatino@universaltv.com
+```
+Get-RestrictedSender -RestrictedSender canallatino@universaltv.com
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-RestrictedSender
 ```
 
@@ -65,7 +65,7 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Register-RestrictedSender](Register-RestrictedSender.md)
+[[Get-RestrictedSender](Get-RestrictedSender.md)]()
 
-[Unregister-RestrictedSender](Unregister-RestrictedSender.md)
+[[Remove-RestrictedSender](Remove-RestrictedSender.md)]()
 

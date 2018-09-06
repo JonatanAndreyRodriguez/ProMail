@@ -31,19 +31,14 @@ Recibe como parámetros los elementos que conformarán la nueva regla.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
-Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba1.txt' -Plugin 'NombrePlugin'
 ```
-
-### -------------------------- EXAMPLE 2 --------------------------
-```powershell
-Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba*.txt','*.txt' -Plugin 'NombrePlugin'
+Register-Rule -Name Prueba -AuthorizedSender Correo@Correo.com -Subject 'Prueba1' -AttachmentsName 'Prueba1.txt' -Plugin 'NombrePlugin'
 ```
 
 ## PARAMETERS
 
 ### -Name
-Nombre con el cual será guardada la regla.
+Nombre con el cual sera guardada la regla.
 
 ```yaml
 Type: String
@@ -156,15 +151,22 @@ Accept wildcard characters: False
 ### Registro nuevo de una regla de gestión en la base de datos.
 
 ## NOTES
----------------------------------------------------------
-Autor: \<Jarodriguezc\>
-Última Modificación: 23/Feb/18
+------------------------------------------------------------------------------------------------------------------
+Author Create: \<Jarodriguezc\>
+Create Date  : 23/Feb/18
 
----------------------------------------------------------
+Author Update: \<Jarodriguezc\>
+Update Date  : 15/Jun/18
+Description  : Se modifica la funcion para cambiar la ruta donde seran almacenados los Templates de HTML.
+Mantiz		 : 122834
+
+Author Update: \<Jarodriguezc\>
+Update Date  : 04/Sep/18
+Description  : Se realiza modificacion ya que al momento de tener imagenes integradas se descarga el archivo erroneo.
+Mantiz		 : 133908
+------------------------------------------------------------------------------------------------------------------
 
 ## RELATED LINKS
 
-[Get-Rule](Get-Rule.md)
-
-[Update-RuleTemplate](Update-RuleTemplate.md)
+[[Register-Rule](Register-Rule.md)]()
 

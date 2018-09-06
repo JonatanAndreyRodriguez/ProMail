@@ -8,7 +8,7 @@ schema: 2.0.0
 # Add-RuleToEmailAccount
 
 ## SYNOPSIS
-Realiza la asociación de n reglas a su respectivas cuentas.
+Realiza la asociacion de n reglas a su respectivas cuentas.
 
 ## SYNTAX
 
@@ -22,17 +22,17 @@ Realiza la asociacion de n reglas a su respectivas cuentas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-EmailAccount | Add-RuleToemailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-EmailAccount -Emailaddres 'prueba@prueba.com' | Add-RuleToemailAccount -Idrule 1
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```powershell
+```
 Get-EmailAccount | Add-RuleToemailAccount -IdRule 1,2,3
 ```
 
@@ -54,7 +54,7 @@ Accept wildcard characters: False
 ```
 
 ### -IdRule
-identificador de las reglas que serán asociadas a las cuentas.
+identificador de las reglas que seran asociadas a las cuentas.
 
 ```yaml
 Type: Int32[]
@@ -83,5 +83,5 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Remove-RuleFromEmailAcoount](Remove-RuleFromEmailAccount.md)
+[[Add-RuleToEmailAcoount](Add-RuleToEmailAcoount.md)]()
 

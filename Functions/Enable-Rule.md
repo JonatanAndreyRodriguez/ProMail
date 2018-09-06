@@ -28,12 +28,12 @@ Habilita las reglas a ser monitoreadas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-Rule | Enable-Rule
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Enable-Rule -IdRule 2
 ```
 
@@ -55,7 +55,7 @@ Accept wildcard characters: False
 ```
 
 ### -ObjectRule
-Objeto con la información de las cuentas a habilitar.
+Objeto con la informacion de las cuentas a habilitar.
 
 ```yaml
 Type: Object
@@ -82,5 +82,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Disable-Rule](Disable-Rule.md)
+[[Enable-Rule](Enable-Rule.md)
+[Disable-Rule](Disable-Rule.md)]()
 

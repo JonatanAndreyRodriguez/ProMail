@@ -22,14 +22,14 @@ Actualiza la contraseña de una cuenta de correo indicada.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-EmailAccount -EmailAddress 'prueba@prueba.com' | Update-EmailAccount
 ```
 
 ## PARAMETERS
 
 ### -ObjectEmailAccount
-Objeto con la cuenta a la cual será actualizada la contraseña.
+Objeto con la cuenta a la cual sera actualizada la contraseña.
 
 ```yaml
 Type: Object
@@ -75,9 +75,5 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Update-EmailAccount](Update-EmailAccount.md)
-
-[Get-EmailAccount](Get-EmailAccount.md)
-
-[Register-EmailAccount](Register-EmailAccount.md)
+[[Update-EmailAccount](Update-EmailAccount.md)]()
 

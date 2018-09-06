@@ -23,17 +23,17 @@ Por defecto se muestran todas las cuentas.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-EmailAccount
 ```
 
 ### -------------------------- EXAMPLE 2 --------------------------
-```powershell
+```
 Get-EmailAccount -EmailAddress 'MyName@gmail.com'
 ```
 
 ### -------------------------- EXAMPLE 3 --------------------------
-```powershell
+```
 Get-EmailAccount -Name 'MyName'
 ```
 
@@ -84,7 +84,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Update-EmailAccountPassword](Update-EmailAccountPassword.md)
-
-[Register-EmailAccount](Register-EmailAccount.md)
+[[Get-EmailAccount](Get-EmailAccount.md)
+[Register-EmailAccount](Register-EmailAccount.md)]()
 

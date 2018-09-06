@@ -22,7 +22,7 @@ Elimina registros de remitentes autorizados.
 ## EXAMPLES
 
 ### -------------------------- EXAMPLE 1 --------------------------
-```powershell
+```
 Get-AuthorizedSender | Remove-AuthorizedSender
 ```
 
@@ -60,7 +60,6 @@ Autor: \<Jarodriguezc\>
 
 ## RELATED LINKS
 
-[Add-AuthorizedSender](Add-AuthorizedSender.md)
-
-[Get-AuthorizedSender](Get-AuthorizedSender.md)
+[[Remove-AuthorizedSender](Remove-AuthorizedSender.md)
+[Get-AuthorizedSender](Get-AuthorizedSender.md)]()
 
