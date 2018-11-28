@@ -1,8 +1,22 @@
 # Logs
 
-ProMail es un Módulo de PowerShell que permite la automatización de procesos por medio de la recepción de mensajes en una o varias cuentas de correo electrónico. Para su funcionamiento es necesario crear una o varias reglas asociadas a las cuentas de correo, que a su vez ejecutarán un proceso o acción mediante un [Plugin](Setup/Plugin-Manager.md).
+El módulo NLog posee un comando que permite el registro de las etapas de ejecución de los módulos registrados, con información útil para el seguimiento de incidencias que se puedan presentar en cada ejecución.
 
-**Configuracion Inicial**
+**Visor de eventos**
 
-En cuanto se utilizara por primera vez ProMail se debera utilizar la funcion set-configuration la cual solicitara datos para el correcto funcionamiento de promail, para cada uno de los valores a configurar se muestra la descripcion del campo.
+Use el comando **Get-Source** para visualizar los módulos registrados en NLog.
 
+```powershell
+PS X> Get-Source
+
+ID Name          Descripción
+-- ------        -----------
+1  PluginManager Descripción del origen PluginManager
+2  ProMail       Descripción del origen ProMail
+```
+
+Para visualizar los últimos 10 eventos registrados en NLog para el modulo ProMail puede utilizar el siguiente ejemplo:
+
+```powershell
+Get-Source -Name 'ProMail' | Get-Log -Last 10
+```
