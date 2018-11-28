@@ -2,7 +2,7 @@
 
 ProMail utiliza el módulo [NLog](https://github.com/RD-Processa/NLog) el cual permite visualizar y registrar las etapas de ejecución de los módulos registrados, con información útil para el seguimiento de incidencias que se puedan presentar en cada ejecución.
 
-**Visor de eventos**
+## Visor de eventos
 
 Use el comando **Get-Source** para visualizar los módulos registrados en NLog.
 
@@ -20,3 +20,7 @@ Para visualizar los últimos 10 eventos registrados en NLog para el modulo ProMa
 ```powershell
 Get-Source -Name 'ProMail' | Get-Log -Last 10
 ```
+
+## Revisión y seguimiento de eventos registrados
+
+Para comprender las etapas de ejecucion de ProMail se debe establecer inicialmente si el servicio de **Processa.Services.ProMail** se encuentra activo o detenido
