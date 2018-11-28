@@ -1,6 +1,6 @@
 # Logs
 
-El módulo NLog posee un comando que permite el registro de las etapas de ejecución de los módulos registrados, con información útil para el seguimiento de incidencias que se puedan presentar en cada ejecución.
+ProMail utiliza el módulo NLog el cual permite visualizar y registrar las etapas de ejecución de los módulos registrados, con información útil para el seguimiento de incidencias que se puedan presentar en cada ejecución.
 
 **Visor de eventos**
 
