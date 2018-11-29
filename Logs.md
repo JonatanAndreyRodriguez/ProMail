@@ -29,7 +29,7 @@ Para comprender las etapas de ejecucion de ProMail se debe las siguientes consid
 2. Verificar en el visor de eventos la última fecha de registro teniendo presente que aunque algún proceso no este en ejecución, ProMail registra el monitoreo de las cuentas registradas cada hora, como se puede evidenciar en la siguiente imagen.
 
 <h2 align="center"><img src="Setup/Monitoreo cuentas.png" /></h2>
-4. Cuando ProMail encuentra un nuevo correo,se inicial el proceso de validación de la regla asociada a la cuenta, si la validación no cumple con las condiciones establecidas se genera un correo de respuesta, señalando la existencia de un error en su procesamiento, como se puede evidenciar en la siguiente imagen.
+4. Cuando ProMail encuentra un nuevo correo,se inicial el proceso de validación de la regla asociada a la cuenta (remitente, asunto y adjunto), si la validación no cumple con las condiciones establecidas se genera un correo de respuesta, señalando la existencia de un error en su procesamiento, como se puede evidenciar en la siguiente imagen.
 <h2 align="center"><img src="Setup/Monitoreo Reglas.png" /></h2>
 5. Cuando el correo cumple con las condiciones establecidas en la regla, se inicia el proceso de ejecución del plugin, en ese momento las funcionalidades de ProMail se encuentran a la espera de la respuesta que el plugin genere, la respuesta podría ser de ERROR o SUCCESS. 
 <h2 align="center"><img src="Setup/Monitoreo Plugin.png" /></h2>
