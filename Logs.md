@@ -25,7 +25,7 @@ Get-Source -Name 'ProMail' | Get-Log -Last 10
 
 Para comprender las etapas de ejecucion de ProMail se debe las siguientes consideraciones:
 
-1. Establecer inicialmente si el servicio de **Processa.Services.ProMail** se encuentra activo o detenido
+1. Establecer inicialmente si el servicio de Windows denominado **Processa.Services.ProMail** se encuentra activo o detenido
 2. Verificar en el visor de eventos la ultima fecha de registro teniendo presente que aunque no este en ejecución el cargue de algún proceso, ProMail registra en el log el monitoreo de las cuentas registradas cada hora, como se puede evidenciar en la siguiente imagen.
 
 <h2 align="center"><img src="Setup/Monitoreo cuentas.png" /></h2>
