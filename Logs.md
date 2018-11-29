@@ -35,7 +35,7 @@ Para comprender las etapas de ejecucion de ProMail se debe las siguientes consid
 <h2 align="center"><img src="Setup/Monitoreo Plugin.png" /></h2>
 
 Luego se realiza la notificación de la respuesta por correo electrónico (se realiza 3 intentos, si no hay respuesta se remite correo a una cuenta de correo alterna), como se puede evidenciar en la siguiente imagen.
-
+<h2 align="center"><img src="Setup/Correo Alterno.png" /></h2>
 
 6. Por último, ProMail realiza el registro de la finalización del proceso y nuevamente inicia el proceso de monitoreo de las cuentas.
 <h2 align="center"><img src="Setup/Monitoreo Notificacion.png" /></h2>
