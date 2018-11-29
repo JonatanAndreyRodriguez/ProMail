@@ -40,7 +40,7 @@ Luego se realiza la notificación de la respuesta por correo electrónico (se re
 6. Por último, ProMail realiza el registro de la finalización del proceso y nuevamente inicia el proceso de monitoreo de las cuentas.
 <h2 align="center"><img src="Setup/Monitoreo Notificacion.png" /></h2>
 
-Se debe tener en cuenta que ProMail tiene la capacidad de ejecutar procesos en simultáneo los cuales se pueden evidenciar en el log, en  la propiedad **Proceso** de cada registro se establece un número de proceso o hilo que lo identica de los demas procesos en ejecución. En el siguiente ejemplo se puede visualizar el registro de varios procesos, uno con valor 5716 el cual ha finalizado y la habilitacion de un nuevo proceso con el valor 6788.
+Se debe tener en cuenta que ProMail tiene la capacidad de ejecutar procesos en simultáneo los cuales se pueden evidenciar en el log, en  la propiedad **Proceso** de cada registro o traza se establece un número de proceso o hilo que lo identica de los demás procesos en ejecución. En el siguiente ejemplo se puede visualizar el registro de varios procesos, uno con valor 5716 el cual ha finalizado y la habilitación de un nuevo proceso con el valor 6788, sin embargo, se podría evidenciar las trazas de diferentes etapas de ejecución.
 
 ```powershell
 Fecha             : 2018-11-28 09:27:34 a.m.
