@@ -1,6 +1,6 @@
 # Logs
 
-ProMail utiliza el módulo [NLog](https://github.com/RD-Processa/NLog) el cual permite visualizar y registrar las etapas de ejecución de los módulos registrados, con información útil para el seguimiento de incidencias que se puedan presentar en cada ejecución.
+ProMail utiliza el módulo [NLog](https://github.com/RD-Processa/NLog) el cual permite visualizar y registrar las etapas de ejecución de los módulos registrados, con información útil para el seguimiento de incidencias que se puedan presentar.
 
 ## Visor de eventos
 
