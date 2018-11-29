@@ -15,7 +15,7 @@ ID Name          Descripción
 2  ProMail       Descripción del origen ProMail
 ```
 
-Para visualizar los últimos 10 eventos registrados en NLog para el modulo ProMail puede utilizar el siguiente ejemplo:
+Para visualizar los últimos 10 eventos registrados en NLog en el modulo ProMail puede utilizar el siguiente ejemplo:
 
 ```powershell
 Get-Source -Name 'ProMail' | Get-Log -Last 10
