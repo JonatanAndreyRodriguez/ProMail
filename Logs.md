@@ -40,12 +40,22 @@ Luego se realiza la notificación de la respuesta por correo electrónico (se re
 6. Por último, ProMail realiza el registro de la finalización del proceso y nuevamente inicia el proceso de monitoreo de las cuentas.
 <h2 align="center"><img src="Setup/Monitoreo Notificacion.png" /></h2>
 
-Se debe tener en cuenta que ProMail tiene la capacidad de ejecutar procesos en simultáneo los cuales se pueden evidenciar en el log, en  la propiedad **Proceso** de cada registro se establece un número de proceso o hilo que lo identica.
+Se debe tener en cuenta que ProMail tiene la capacidad de ejecutar procesos en simultáneo los cuales se pueden evidenciar en el log, en  la propiedad **Proceso** de cada registro se establece un número de proceso o hilo que lo identica de los demas procesos en ejecución. En el siguiente ejemplo se puede visualizar el registro de varios procesos, uno con valor 5716 el cual ha finalizado y la habilitacion de un nuevo proceso con el valor 6788.
 
 ```powershell
-Fecha   	: 2018-11-28 11:22:20 a.m.
-Nivel   	: TRACE
-PC      	: PDDB001
-Proceso 	: powershell - 6788
+Fecha             : 2018-11-28 09:27:34 a.m.
+Nivel             : TRACE
+PC                : PDDB001
+Proceso           : powershell - 5716
+Identidad usuario : PROCESSA\jleyton
+Mensaje           : Finalizo el proceso del plugin
+Excepción         :
+
+Fecha             : 2018-11-28 10:21:32 a.m.
+Nivel             : TRACE
+PC                : PDDB001
+Proceso           : powershell - 6788
+Identidad usuario : PROCESSA\jleyton
+Mensaje           : Monitoreando cuenta(s)...
 ```
 En conclusión, para establecer el origen de la incidencia o error se debe tener presente la etapa de ejecucion del proceso.
